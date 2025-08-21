@@ -6,17 +6,16 @@
 ## Table of Contents
 
 1. [System Architecture](#system-architecture)
-2. [Installation & Setup](#installation--setup)
-3. [Configuration](#configuration)
-4. [Core Components](#core-components)
-5. [API Reference](#api-reference)
-6. [Frontend Architecture](#frontend-architecture)
-7. [Performance Optimization](#performance-optimization)
-8. [Threading Implementation](#threading-implementation)
-9. [Error Handling](#error-handling)
-10. [Testing & Debugging](#testing--debugging)
-11. [Deployment Guide](#deployment-guide)
-12. [Troubleshooting](#troubleshooting)
+2. [Configuration](#configuration)
+3. [Core Components](#core-components)
+4. [API Reference](#api-reference)
+5. [Frontend Architecture](#frontend-architecture)
+6. [Performance Optimization](#performance-optimization)
+7. [Threading Implementation](#threading-implementation)
+8. [Error Handling](#error-handling)
+9. [Testing & Debugging](#testing--debugging)
+10. [Deployment Guide](#deployment-guide)
+11. [Troubleshooting](#troubleshooting)
 
 ---
 
