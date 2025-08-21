@@ -70,53 +70,6 @@ The application follows a **Model-View-Controller (MVC)** pattern with threading
 
 ---
 
-## Installation & Setup
-
-### Prerequisites
-
-```bash
-# System Requirements
-- Python 3.8 or higher
-- pip package manager
-- Webcam (for live detection)
-- 4GB+ RAM (8GB recommended)
-- GPU support (optional but recommended)
-```
-
-### Step-by-Step Installation
-
-1. **Clone/Download Project**
-```bash
-# Navigate to project directory
-cd "f:\mldl practice\object counter"
-```
-
-2. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Download YOLO Model**
-```bash
-# The YOLOv12n model should be placed in the project root
-# File: yolo12n.pt (download from Ultralytics)
-```
-
-4. **Verify Installation**
-```bash
-python -c "import cv2, ultralytics; print('Dependencies OK')"
-```
-
-5. **Run Application**
-```bash
-python app.py
-```
-
-6. **Access Application**
-```
-Open browser: http://localhost:5000
-```
-
 ### Dependencies Breakdown
 
 ```python
@@ -146,14 +99,7 @@ WEBCAM_SOURCE = 0                   # Camera index (0=default, 1=external)
 UPLOADS_FOLDER = 'uploads'          # Directory for uploaded files
 ```
 
-### Environment Variables (Optional)
 
-```bash
-# Set via environment or .env file
-export FLASK_ENV=development        # Development mode
-export FLASK_DEBUG=1               # Enable debug mode
-export YOLO_MODEL_PATH=/path/to/model.pt
-```
 
 ### Advanced Configuration Options
 
